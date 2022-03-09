@@ -1,0 +1,58 @@
+#include "C:\ti\ccs1110\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+/* This program drives the stepper motor in full rotation using wave drive mode*/
+/*include register definition file of TM4C123GN6PM microcontroller */
+
+/* function prototype of milisecond delay routine */
+void Delay_ms(int n);
+
+int speed = 5; //* Vary the speed between 1-10 ms delay
+int i = 0;
+
+/* Main function to drive motor */
+int main(void)
+{
+
+    SYSCTL->RCGCGPIO |= 0x20;   /*Enable clock to PORTF */
+
+    /* GPIOF->DATA PF3,PF2, PF1, PF0 pin initialization*/
+    GPIOF->DIR |= 0x0F;         /* GPIOF->DATA  PF3,PF2, PF1, PF0as output */
+    GPIOF->DEN |= 0x0F;         /* GPIOF->DATA  PF3,PF2, PF1, PF0 as digital pins */
+
+    while(1)
+{
+
+     for(i=0; i<250; i++) // take 250 steps to complete one revolution
+     {
+        // apply full drive clockwise rotation sequence
+         GPIOF->DATA = 0x08;
+         Delay_ms(4);
+         GPIOF->DATA = 0x04;
+         Delay_ms(4);
+         GPIOF->DATA = 0x02;
+         Delay_ms(4);
+         GPIOF->DATA = 0x01;
+         Delay_ms(4);
+     }
+}
+
+}
+/* Generates a delay in number of miliseocnds wit system clock of 16MHz */
+void Delay_ms(int n)
+{
+    int a, b;
+    for(a = 0 ; a < n; a++)
+        for(b = 0; b < 3180; b++)
+            {} /* execute NOP for one milisecond */
+}
+
+/* This function is called by the startup assembly code to perform system specific initialization tasks. */
+void SystemInit(void)
+{
+    /* Grant coprocessor access */
+    /* This is required since TM4C123G has a floating point coprocessor */
+    SCB->CPACR |= 0x00f00000;
+}

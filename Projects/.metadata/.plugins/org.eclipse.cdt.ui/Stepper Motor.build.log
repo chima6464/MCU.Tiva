@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Stepper Motor ****
+
+"C:\\ti\\ccs1110\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'Stepper Motor.out' is up to date.
+
+**** Build Finished ****
