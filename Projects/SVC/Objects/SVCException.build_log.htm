@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Henry Okoro, N/A, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      TI_XDS\XDS2CM3.dll V1.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Henry\OneDrive\Desktop\KeilProjects\SVCException.uvprojx
+Project File Date:  03/26/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(2): error: expected parameter declarator
+int __svc(0x00) svc_service_add(int x, int y);
+          ^
+main.c(2): error: expected ')'
+main.c(2): note: to match this '('
+int __svc(0x00) svc_service_add(int x, int y);
+         ^
+main.c(2): error: expected function body after function declarator
+int __svc(0x00) svc_service_add(int x, int y);
+                ^
+main.c(3): error: expected parameter declarator
+int __svc(0x01) svc_service_sub(int x, int y);
+          ^
+main.c(3): error: expected ')'
+main.c(3): note: to match this '('
+int __svc(0x01) svc_service_sub(int x, int y);
+         ^
+main.c(3): error: expected function body after function declarator
+int __svc(0x01) svc_service_sub(int x, int y);
+                ^
+main.c(4): error: expected parameter declarator
+int __svc(0x02) svc_service_mul(int x, int y);
+          ^
+main.c(4): error: expected ')'
+main.c(4): note: to match this '('
+int __svc(0x02) svc_service_mul(int x, int y);
+         ^
+main.c(4): error: expected function body after function declarator
+int __svc(0x02) svc_service_mul(int x, int y);
+                ^
+main.c(5): error: expected parameter declarator
+int __svc(0x03) svc_service_div(int x, int y);
+          ^
+main.c(5): error: expected ')'
+main.c(5): note: to match this '('
+int __svc(0x03) svc_service_div(int x, int y);
+         ^
+main.c(5): error: expected function body after function declarator
+int __svc(0x03) svc_service_div(int x, int y);
+                ^
+main.c(7): error: expected '(' after 'asm'
+__asm void SVC_Handler(void)
+      ^
+main.c(7): error: expected ';' after top-level asm block
+__asm void SVC_Handler(void)
+     ^
+     ;
+main.c(9): error: use of undeclared identifier 'TST'
+    TST LR, #4  //0b 0100
+    ^
+main.c(7): warning: no previous prototype for function 'SVC_Handler' [-Wmissing-prototypes]
+__asm void SVC_Handler(void)
+           ^
+main.c(7): note: declare 'static' if the function is not intended to be used outside of this translation unit
+__asm void SVC_Handler(void)
+      ^
+      static 
+main.c(16): warning: no previous prototype for function 'SVC_Handler_C' [-Wmissing-prototypes]
+void SVC_Handler_C(unsigned int * svc_args)
+     ^
+main.c(16): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SVC_Handler_C(unsigned int * svc_args)
+^
+static 
+main.c(49): warning: implicit declaration of function 'svc_service_add' is invalid in C99 [-Wimplicit-function-declaration]
+    int z = svc_service_add(x,y);
+            ^
+main.c(53): warning: implicit declaration of function 'svc_service_sub' is invalid in C99 [-Wimplicit-function-declaration]
+    z = svc_service_sub(x,y);
+        ^
+main.c(55): warning: implicit declaration of function 'svc_service_mul' is invalid in C99 [-Wimplicit-function-declaration]
+    z = svc_service_mul(x,y);
+        ^
+main.c(60): warning: implicit declaration of function 'svc_service_div' is invalid in C99 [-Wimplicit-function-declaration]
+    z = svc_service_div(x,y);
+        ^
+6 warnings and 15 errors generated.
+compiling main.c...
+".\Objects\SVCException.axf" - 15 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Henry\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Henry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

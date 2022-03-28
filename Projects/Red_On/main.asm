@@ -1,0 +1,14 @@
+		AREA	|.text|,CODE,READONLY,ALIGN=2;
+		THUMB
+		EXPORT Main
+
+Main
+		BL		GPIOF_Init
+
+l
+
+
+GPIOF_Init
+	LDR R1, =SYSCTL_RCGCGPIO_R
+	LDR R0, [R1]
+	ORR R0, R0, #0x20;
