@@ -1199,3 +1199,214 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstud
 
 !ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-03-26 07:16:36.577
 !MESSAGE CCS HTTP adapter started! [ccs.port:63566] - Open 'http://localhost:63566/ide' in web browser to see listing of available APIs...
+!SESSION 2022-04-01 18:01:52.097 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-04-01 18:01:56.293
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-01 18:01:56.294
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-01 18:02:08.412
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.577
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.578
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.578
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.580
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.581
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:08.938
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:09.408
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:09.761
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:10.154
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-01 18:02:11.337
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-01 18:02:11.409
+!MESSAGE CCS HTTP adapter started! [ccs.port:51943] - Open 'http://localhost:51943/ide' in web browser to see listing of available APIs...
+
+!ENTRY com.ti.ccstudio.app.center 4 0 2022-04-01 18:02:11.464
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.app.center'.
+!STACK 0
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONObject.<init>(JSONObject.java:189)
+	at org.json.JSONObject.<init>(JSONObject.java:316)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.processImports(CCSAppCenter.java:251)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.getAppJson_0(CCSAppCenter.java:214)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.access$1(CCSAppCenter.java:205)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter$1.run(CCSAppCenter.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ti.ccstudio.app.center 4 0 2022-04-01 18:02:11.464
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.app.center'.
+!STACK 0
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONObject.<init>(JSONObject.java:189)
+	at org.json.JSONObject.<init>(JSONObject.java:316)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.convertToFullpaths(CCSAppCenter.java:325)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.getAppJson_0(CCSAppCenter.java:223)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.access$1(CCSAppCenter.java:205)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter$1.run(CCSAppCenter.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ti.ccstudio.app.center 4 0 2022-04-01 18:02:11.465
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.app.center'.
+!STACK 0
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONObject.<init>(JSONObject.java:189)
+	at org.json.JSONObject.<init>(JSONObject.java:316)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter._replaceIusWithLatest(CCSAppCenter.java:361)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.access$3(CCSAppCenter.java:358)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter$2.run(CCSAppCenter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-01 18:03:42.764
+!MESSAGE Indexed 'Lesson2' (2 sources, 10 headers) in 0.08 sec: 146 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-04-01 21:49:10.472
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Connection with the target was unexpectedly lost.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-04-01 21:49:10.496
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2022-04-03 22:19:11.883 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-04-03 22:19:17.976
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-03 22:19:17.977
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-03 22:19:32.087
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.216
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.216
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.217
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.218
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.218
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.450
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.759
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:32.986
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:33.212
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-03 22:19:33.893
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-03 22:19:33.935
+!MESSAGE CCS HTTP adapter started! [ccs.port:50527] - Open 'http://localhost:50527/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-03 22:20:26.439
+!MESSAGE Indexed 'Section7' (1 sources, 10 headers) in 0.089 sec: 144 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-04-06 21:03:37.576 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-04-06 21:03:40.433
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-06 21:03:40.433
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-06 21:03:52.625
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:52.795
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:52.796
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:52.797
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:52.798
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:52.798
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:53.421
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:54.407
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:55.055
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:55.806
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-06 21:03:57.748
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-06 21:03:57.799
+!MESSAGE CCS HTTP adapter started! [ccs.port:49938] - Open 'http://localhost:49938/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-06 21:52:26.074
+!MESSAGE Indexed 'Blinky' (2 sources, 10 headers) in 0.119 sec: 146 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
