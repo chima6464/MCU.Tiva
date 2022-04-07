@@ -1410,3 +1410,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstud
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-04-06 21:52:26.074
 !MESSAGE Indexed 'Blinky' (2 sources, 10 headers) in 0.119 sec: 146 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-06 23:25:44.034
+!MESSAGE Indexed 'BlinkyBitShift' (2 sources, 10 headers) in 0.032 sec: 146 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
