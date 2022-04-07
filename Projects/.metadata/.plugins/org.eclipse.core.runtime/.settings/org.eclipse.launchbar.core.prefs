@@ -2,12 +2,16 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=null\:---
-configDescList=
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Blinky
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Counter/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Counter/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Counter1/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Counter1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Lesson2/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Lesson2/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Red_ON_ASM/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Red_ON_ASM/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Stepper\ Motor/activeLaunchMode=debug
