@@ -1413,3 +1413,254 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstud
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-04-06 23:25:44.034
 !MESSAGE Indexed 'BlinkyBitShift' (2 sources, 10 headers) in 0.032 sec: 146 declarations; 460 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-04-12 21:58:52.765 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-12 21:59:00.768
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 1 0 2022-04-12 21:59:00.829
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-12 21:59:00.829
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-12 21:59:10.222
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2022-04-12 21:59:10.279
+!MESSAGE Unexpected CCS exit detected [4/6/22, 9:03 PM]!!!
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:10.458
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:10.459
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:10.459
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:10.460
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:10.460
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:11.212
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:11.449
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:11.695
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:11.916
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-12 21:59:12.622
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-12 21:59:12.659
+!MESSAGE CCS HTTP adapter started! [ccs.port:50768] - Open 'http://localhost:50768/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-12 22:00:41.489
+!MESSAGE Indexed 'BlinkyMSP' (1 sources, 5 headers) in 0.09 sec: 175 declarations; 610 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-12 22:34:23.635
+!MESSAGE Indexed 'BlinkyMSP' (1 sources, 5 headers) in 0.038 sec: 175 declarations; 610 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-04-14 08:53:24.041 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-04-14 08:53:29.729
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-14 08:53:29.730
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-14 08:53:37.180
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.351
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.352
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.353
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.354
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.355
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.362
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.369
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.376
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.381
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 08:53:37.406
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-14 08:53:37.781
+!MESSAGE CCS HTTP adapter started! [ccs.port:50069] - Open 'http://localhost:50069/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2022-04-14 08:58:26.009
+!MESSAGE An error occurred while downloading http://software-dl.ti.com/ccs/non-esd/eclipse_ide/v11.0/all_extras_repo/content.jar. The cache file C:\ti\ccs1110\ccs\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading\content-1649344102.jar could not be renamed to C:\ti\ccs1110\ccs\eclipse\p2\org.eclipse.equinox.p2.repository\cache\content-1649344102.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-14 08:58:26.010
+!MESSAGE Unable to load repositories.
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2022-04-14 08:58:26.072
+!MESSAGE An error occurred while downloading http://software-dl.ti.com/ccs/non-esd/eclipse_ide/v11.0/all_extras_repo/content.jar. The cache file C:\ti\ccs1110\ccs\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading\content-1649344102.jar could not be renamed to C:\ti\ccs1110\ccs\eclipse\p2\org.eclipse.equinox.p2.repository\cache\content-1649344102.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-14 08:58:26.073
+!MESSAGE Unable to load repositories.
+
+!ENTRY org.eclipse.equinox.p2.operations 1 10003 2022-04-14 08:59:27.666
+!MESSAGE "ARM Compiler Tools" is already installed, so an update will be performed instead.
+!SESSION 2022-04-14 09:00:28.047 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2022-04-14 09:00:41.693
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2022-04-14 09:00:41.694
+!MESSAGE debugServerDir=C:/ti/ccs1110/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2022-04-14 09:00:53.440
+!MESSAGE CCS IDE session started!
+	CCS build: 11.1.0.00011
+	CCS location: C:/ti/ccs1110/ccs
+	Workspace location: C:/Users/Henry/MCU.Tiva/Projects
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.527
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.528
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.528
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.529
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.529
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.532
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.534
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.536
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.538
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2022-04-14 09:00:53.546
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2022-04-14 09:00:53.570
+!MESSAGE CCS HTTP adapter started! [ccs.port:50617] - Open 'http://localhost:50617/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-14 09:02:01.378
+!MESSAGE Indexed 'Lesson19' (2 sources, 6 headers) in 0.167 sec: 97 declarations; 464 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.common.project.core 4 0 2022-04-14 12:04:39.586
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.internalImportProject(ProjectImporter.java:480)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.access$0(ProjectImporter.java:427)
+	at com.ti.ccstudio.project.core.services.ProjectImporter$1.run(ProjectImporter.java:387)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.importProject(ProjectImporter.java:385)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage.createExistingProject(ProjectImportPage.java:1429)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage.access$27(ProjectImportPage.java:1271)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage$16.execute(ProjectImportPage.java:1221)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\Henry\MCU.Tiva\Projects\lesson20 overlaps the location of another project: 'lesson20'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-04-14 12:04:39.587
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2022-04-14 12:04:39.587
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-04-14 12:04:39.587
+!MESSAGE C:\Users\Henry\MCU.Tiva\Projects\lesson20 overlaps the location of another project: 'lesson20'
+
+!ENTRY com.ti.common.project.core 4 0 2022-04-14 12:04:55.106
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.internalImportProject(ProjectImporter.java:480)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.access$0(ProjectImporter.java:427)
+	at com.ti.ccstudio.project.core.services.ProjectImporter$1.run(ProjectImporter.java:387)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.importProject(ProjectImporter.java:385)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage.createExistingProject(ProjectImportPage.java:1429)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage.access$27(ProjectImportPage.java:1271)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage$16.execute(ProjectImportPage.java:1221)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\Henry\MCU.Tiva\Projects\lesson20 overlaps the location of another project: 'lesson20'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-04-14 12:04:55.106
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2022-04-14 12:04:55.106
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-04-14 12:04:55.106
+!MESSAGE C:\Users\Henry\MCU.Tiva\Projects\lesson20 overlaps the location of another project: 'lesson20'
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-14 12:05:18.033
+!MESSAGE Indexed 'lesson' (3 sources, 2 headers) in 0.085 sec: 1,652 declarations; 194 references; 1 unresolved inclusions; 939 syntax errors; 945 unresolved names (34%)
